@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter Bootstrap : Carousel Slide </title>
+<link rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+<link rel="stylesheet"
+     href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+  .demoBS2{margin:10px;}
+</style>
+<body>
+<div class="DemoBS2">
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> <!-- carousel class-->
+   
+      <ol class="carousel-indicators"> <!-- carousel indicators -->
+        <li data-target="#carousel-demo" data-slide-to="0" class="active"></li> <!-- img index 0 -->
+        <li data-target="#carousel-demo" data-slide-to="1"></li> <!-- img index 1 -->
+        <li data-target="#carousel-demo" data-slide-to="2"></li> <!-- img index 2 -->
+      </ol>
+   
+      <div class="carousel-inner">
+          <div class="item active"> <!-- class item , class active to denote active carousel -->
+            <img src="ab.jpg" alt="5 US dollar">
+			    <div class="carousel-caption"> <!-- class carousel-caption -->
+            <h3>5 US Dollar</h3>
+           </div>
+       </div>
+	  
+        <div class="item"> <!-- class item  -->
+          <img src="d1.jpg" alt="100 US Dollar">
+		  <div class="carousel-caption"> <!-- class carousel-caption -->
+            <h3>100 US Dollar</h3>
+          </div>
+	   </div>
+	   
+        <div class="item"> <!-- class item -->
+          <img src="d3.jpg" alt="50 US dollar">
+			<div class="carousel-caption"> <!-- class carousel-caption -->
+              <h3>50 US Dollar</h3>
+            </div>
+        </div>
+		
+</div>
+   <!-- data-slide previous -->
+      <a class="left carousel-control" href="#carousel-demo" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+   <!-- data-slide next -->
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+	  
+    </div>
+  </div>
+</body>
+</html>
