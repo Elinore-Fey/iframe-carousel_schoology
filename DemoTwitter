@@ -9,8 +9,16 @@
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 </head>
-
 <style>
+.top-content .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+.top-content .carousel-indicators {
+    bottom: -40px;
+    }
   .demoBS2{margin:10px;}
 </style>
 <body>
